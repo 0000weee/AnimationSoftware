@@ -7,17 +7,17 @@
 
 ## 相關背景知識
 
-1. 精靈圖 Sprite，代表一個圖片資料
+- 精靈圖 Sprite，代表一個圖片資料
 
-2. Canvas 代表整個場景
+- Canvas 代表整個場景
 
-3. Frame Buffer 代表在輸出裝置上的資訊
+- Frame Buffer 代表在輸出裝置上的資訊
 
 ## 需求
-
+```
 設計一個記憶體效率高的架構，完成canvas、sprite相關的TODO函數
 需有animation以及layer功能。
-
+```
 ## 測試
 需使用講義第六點的範例
 
