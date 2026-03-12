@@ -59,7 +59,7 @@ struct bitmapv5_header {
 
 
 struct canvas* animate_create_canvas(size_t height, size_t width,
-                                     color_t background_color){
+                                        color_t background_color){
     // TODO
     return NULL;
 }
@@ -86,8 +86,8 @@ bool animate_destroy_sprite(struct sprite* sprite) {
 }
 
 struct sprite_placement* animate_place_sprite(struct canvas* canvas,
-                                              struct sprite* sprite,
-                                              ssize_t x, ssize_t y) {
+                                                struct sprite* sprite,
+                                                ssize_t x, ssize_t y) {
     // TODO
     return NULL;
 }
@@ -113,8 +113,8 @@ void animate_destroy_placement(struct sprite_placement* sprite_placement){
 }
 
 void animate_set_animation_params(struct sprite_placement* sprite_placement,
-                                  ssize_t vx, ssize_t vy,
-                                  ssize_t ax, ssize_t ay){
+                                    ssize_t vx, ssize_t vy,
+                                    ssize_t ax, ssize_t ay){
     // TODO
 }
 
@@ -134,6 +134,6 @@ void animate_generate_frame(const struct canvas* canvas, size_t frame,
 
 // Optional extension
 //void animate_set_animation_function(struct sprite_placement* sprite_placement,
-                                    animate_fn, void* priv) {
+                                    //animate_fn, void* priv) {
 //}
 

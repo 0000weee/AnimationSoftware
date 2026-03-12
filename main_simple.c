@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
     size_t bytes_written = fwrite(data, 1, frame_size_bytes, fp);
     if (bytes_written != frame_size_bytes) {
         printf("Failed to write buffer (%ld/%ld): %s\n", bytes_written,
-               frame_size_bytes, strerror(errno));
+                frame_size_bytes, strerror(errno));
         return -1;
     }
 
