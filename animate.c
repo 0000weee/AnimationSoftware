@@ -12,6 +12,9 @@ struct sprite_placement {
 
 struct canvas {
     // TODO
+    size_t height;
+    size_t width;
+    color_t background_color;
 };
 
 
@@ -61,6 +64,10 @@ struct bitmapv5_header {
 struct canvas* animate_create_canvas(size_t height, size_t width,
                                         color_t background_color){
     // TODO
+    // malloc a ptr
+    // initialize
+    // return ptr
+    struct canvas* canvas_ptr = (struct canvas*)malloc(sizeof(struct canvas));
     return NULL;
 }
 
