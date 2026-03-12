@@ -23,19 +23,19 @@
 
 ## 結構設計稿
 
-Sprites (圖片資源)
-        ↓
-Sprite Placements (場景物件)
-        ↓
-Canvas (場景)
-        ↓
-Animation System (運動)
-        ↓
-Renderer : generate frame(畫圖)
-        ↓
-Frame Buffer
-        ↓
-輸出畫面
+Sprites (圖片資源)  
+        ↓  
+Sprite Placements (場景物件)  
+        ↓  
+Canvas (場景)  
+        ↓  
+Animation System (運動)  
+        ↓  
+Renderer : generate frame(畫圖)  
+        ↓  
+Frame Buffer  
+        ↓  
+輸出畫面  
 
 ## API說明
 
